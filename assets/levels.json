@@ -1,0 +1,194 @@
+{
+    "levels": [
+        {
+            "level": 1,
+            "enemies": [
+                { "x": 570, "y": 250 },
+                { "x": 100, "y": 500 },
+                { "x": 650, "y": 500 },
+                { "x": 400, "y": 100 }
+            ],
+            "walls": [
+                { 
+                    "start": { "x": 300, "y": 0 },
+                    "rotation": "v",
+                    "length": 200
+                },
+                { 
+                    "start": { "x": 0, "y": 320 },
+                    "rotation": "h",
+                    "length": 300
+                },
+                { 
+                    "start": { "x": 500, "y": 200 },
+                    "rotation": "v",
+                    "length": 350
+                }
+            ],
+            "previousLevelDoor": {
+                "direction": "l",
+                "position": 100
+            },
+            "nextLevelDoor": {
+                "direction": "r",
+                "position": 350
+            },
+            "playerInitPos": {
+                "x": 20,
+                "y": 180
+            }
+        },
+        {
+            "level": 2,
+            "enemies": [
+                { "x": 500, "y": 300 },
+                { "x": 550, "y": 500 },
+                { "x": 100, "y": 400 },
+                { "x": 700, "y": 250 },
+                { "x": 450, "y": 120 }
+            ],
+            "walls": [
+                { 
+                    "start": { "x": 350, "y": 0 },
+                    "rotation": "v",
+                    "length": 350
+                },
+                { 
+                    "start": { "x": 0, "y": 300 },
+                    "rotation": "h",
+                    "length": 220
+                },
+                { 
+                    "start": { "x": 0, "y": 430 },
+                    "rotation": "h",
+                    "length": 600
+                },
+                { 
+                    "start": { "x": 600, "y": 150 },
+                    "rotation": "v",
+                    "length": 305
+                }
+            ],
+            "previousLevelDoor": {
+                "direction": "t",
+                "position": 50
+            },
+            "nextLevelDoor": {
+                "direction": "d",
+                "position": 350
+            },
+            "playerInitPos": {
+                "x": 110,
+                "y": 30
+            }
+        },
+        {
+            "level": 3,
+            "enemies": [
+                { "x": 75, "y": 100 },
+                { "x": 100, "y": 370 },
+                { "x": 250, "y": 180 },
+                { "x": 700, "y": 350 },
+                { "x": 600, "y": 450 },
+                { "x": 400, "y": 300 },
+                { "x": 300, "y": 450 }
+            ],
+            "walls": [
+                { 
+                    "start": { "x": 300, "y": 250 },
+                    "rotation": "h",
+                    "length": 500
+                },
+                { 
+                    "start": { "x": 300, "y": 100 },
+                    "rotation": "v",
+                    "length": 200
+                },
+                { 
+                    "start": { "x": 150, "y": 0 },
+                    "rotation": "v",
+                    "length": 200
+                },
+                { 
+                    "start": { "x": 0, "y": 400 },
+                    "rotation": "h",
+                    "length": 350
+                },
+                { 
+                    "start": { "x": 500, "y": 380 },
+                    "rotation": "v",
+                    "length": 170
+                }
+            ],
+            "previousLevelDoor": {
+                "direction": "r",
+                "position": 60
+            },
+            "nextLevelDoor": {
+                "direction": "d",
+                "position": 100
+            },
+            "playerInitPos": {
+                "x": 780,
+                "y": 130
+            }
+        },
+        {
+            "level": 4,
+            "enemies": [
+                { "x": 600, "y": 100 },
+                { "x": 100, "y": 480 },
+                { "x": 75, "y": 80 },
+                { "x": 220, "y": 400 },
+                { "x": 500, "y": 450 },
+                { "x": 450, "y": 300 },
+                { "x": 650, "y": 320 },
+                { "x": 300, "y": 130 }
+            ],
+            "walls": [
+                { 
+                    "start": { "x": 580, "y": 380 },
+                    "rotation": "v",
+                    "length": 170
+                },
+                { 
+                    "start": { "x": 320, "y": 380 },
+                    "rotation": "h",
+                    "length": 350
+                },
+                { 
+                    "start": { "x": 320, "y": 180 },
+                    "rotation": "v",
+                    "length": 200
+                },
+                { 
+                    "start": { "x": 520, "y": 200 },
+                    "rotation": "h",
+                    "length": 200
+                },
+                { 
+                    "start": { "x": 520, "y": 100 },
+                    "rotation": "v",
+                    "length": 130
+                },
+                { 
+                    "start": { "x": 130, "y": 100 },
+                    "rotation": "v",
+                    "length": 350
+                }
+            ],
+            "previousLevelDoor": {
+                "direction": "d",
+                "position": 620
+            },
+            "nextLevelDoor": {
+                "direction": "d",
+                "position": 100
+            },
+            "playerInitPos": {
+                "x": 690,
+                "y": 520
+            }
+        }
+    ]
+}
